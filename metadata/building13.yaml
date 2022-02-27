@@ -1,5 +1,5 @@
-instance: 10
-original_name: house_10   # original name from GeLaP dataset
+instance: 13
+original_name: house_13   # original name from GeLaP dataset
 elec_meters:
   1: &emonitor
     submeter_of: 0 
@@ -18,66 +18,66 @@ elec_meters:
     device_model: Gelap_whole_house
 
 appliances:
-- original_name: electric kettle
-  room: kitchen
-  type: kettle
+- original_name: garage door opener
+  room: garage
+  type: unknown
   instance: 1
   meters: [1] 
 
-- original_name: fully automatic coffee machine
+- original_name: radio
+  room: garage
+  type: radio
+  instance: 1
+  multiple: true
+  meters: [2]
+
+- original_name: coffee machine
   room: kitchen
   type: coffee maker
   instance: 1
-  meters: [2]
+  meters: [3]
 
 - original_name: Thermomix
   room: kitchen
   type: food processor
   instance: 1
-  meters: [3]
-
-- original_name: extractor fan
-  room: kitchen
-  type: fan
-  instance: 1
   meters: [4]
+
+- original_name: charger
+  room: kitchen
+  type: mobile phone charger
+  instance: 1
+  meters: [5]
 
 - original_name: television
   room: living room
   type: television
   instance: 1
-  multiple: true
-  meters: [5]
-
-- original_name: sound-system
-  room: living room
-  type: audio system
-  instance: 1
-  multiple: true
   meters: [6]
 
-- original_name: radio
-  room: office
-  type: radio
+- original_name: floor lamp
+  room: living room
+  type: lamp
   instance: 1
   meters: [7]
 
-- original_name: printer
-  room: office
-  type: printer
-  instance: 1
+- original_name: radio
+  room: bathroom
+  type: radio
+  instance: 2
+  multiple: true
   meters: [8]
 
-- original_name: television
-  room: hildren's room
-  type: television
-  instance: 2
+- original_name: washing machine
+  room: basement
+  type: washing machine
+  instance: 1
   multiple: true
   meters: [9]
 
-- original_name: sound-system
-  room: children's room
-  type: audio system
+- original_name: washing machine
+  room: basement
+  type: washing machine
   instance: 2
   multiple: true
   meters: [10]

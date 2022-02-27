@@ -38,7 +38,7 @@ appliances:
 
 - original_name: Thermomix
   room: kitchen
-  type: unknown
+  type: food processor
   instance: 1
   multiple: true
   meters: [4]
