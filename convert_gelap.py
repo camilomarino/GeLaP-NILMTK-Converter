@@ -1,5 +1,7 @@
 import tarfile
 import warnings
+from itertools import repeat
+from multiprocessing import Pool
 from os.path import join
 
 import numpy as np
@@ -28,15 +30,15 @@ def convert_gelap(
     output_filename : str
         The destination filename (including path and suffix).
     uncompress_tars : bool
-        If False, it does NOT unzip all the .tar.xz files from each of the 
-        houses. Useful when you already have these files uncompressed and 
+        If False, it does NOT unzip all the .tar.xz files from each of the
+        houses. Useful when you already have these files uncompressed and
         you don't want to repeat the process.
-    
+
     Notes
     -----
-    The data is downloaded from the gitlab repository. For this, it is 
-    recommended to use the option to download the repository in zip format 
-    (or by accessing this link: 
+    The data is downloaded from the gitlab repository. For this, it is
+    recommended to use the option to download the repository in zip format
+    (or by accessing this link:
     https://mygit.th-deg.de/tcg/gelap/-/archive/master/gelap-master.zip ).
     """
 
@@ -87,6 +89,9 @@ def _prepare_df(
     df.columns.set_names(LEVEL_NAMES, inplace=True)
     df.dropna(inplace=True)
 
+    if drop_duplicates:
+        # https://stackoverflow.com/a/34297689/12462703
+        df = df[~df.index.duplicated(keep="first")]
     if sort_index:
         df.sort_index(inplace=True)
     return df
@@ -107,13 +112,14 @@ def _read_site_meter_csv(
 
 
 def _read_elec_csv(
-    csv_path: str, sort_index: bool, drop_duplicates: bool
+    elec_number: int, csv_path: str, sort_index: bool, drop_duplicates: bool
 ) -> pd.DataFrame:
+    print(f"Reading elec {elec_number} from: {csv_path} ...")
     df = pd.read_csv(csv_path, usecols=[1, 2], index_col=0)
     df.index = pd.to_datetime(df.index, unit="ms")
     df = _prepare_df(df, sort_index, drop_duplicates)
 
-    return df
+    return elec_number, df
 
 
 def _convert_house(
@@ -132,15 +138,23 @@ def _convert_house(
     key = Key(building=house_number, meter=SITE_METER_NUMBER)
     store.put(str(key), df_site_meter)
 
-    for elec_number, elec_csv_path in elecs_csv_path.items():
-        print(f"Reading elec {elec_number} from: {elec_csv_path} ...")
-        df_elec = _read_elec_csv(elec_csv_path, sort_index, drop_duplicates)
+    pool = Pool()
+    dfs_elecs: list = pool.starmap(
+        _read_elec_csv,
+        zip(
+            elecs_csv_path.keys(),
+            elecs_csv_path.values(),
+            repeat(sort_index),
+            repeat(drop_duplicates),
+        ),
+    )
+    for elec_number, df_elec in dfs_elecs:
         key = Key(building=house_number, meter=elec_number)
         store.put(str(key), df_elec)
 
 
 def _convert(
-    gelap_path: str, store, sort_index: bool = True, drop_duplicates: bool = False
+    gelap_path: str, store, sort_index: bool = True, drop_duplicates: bool = True
 ) -> None:
     for house_number in range(1, NUM_HOUSES + 1):
         print(f"Converting house {house_number}...")
