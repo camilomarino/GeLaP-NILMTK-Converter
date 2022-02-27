@@ -130,7 +130,7 @@ def _convert(
 ) -> None:
     if uncompress:
         _uncompress_houses_tar(gelap_path)
-    num_houses = 4
+    num_houses = 10
     for house_number in range(1, num_houses + 1):
         print(f"Converting house {house_number}...")
         house_path = join(gelap_path, f"hh-{house_number:02}")
