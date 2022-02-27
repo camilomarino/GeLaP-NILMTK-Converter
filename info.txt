@@ -1,0 +1,1914 @@
+################################################################################
+GeLaP 	DATA INFORMATION
+################################################################################
+version: 2021-02-17
+
+--------------------------------------------------------------------------------
+hh-01
+--------------------------------------------------------------------------------
+  location (postal code):	DE-94***
+  number of residents		<=2
+  space						>150 m^3
+
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  SMART METER MEASUREMENTS
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+    from:		1582185573765
+    to:			1590030335288
+
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  LABEL MEASUREMENTS
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+    label_001:
+      type:			coffee machine
+      location:		kitchen
+      description:	
+      from:			1582098564560
+      to:			1584342803470
+      power_min:	0.0
+      power_max:	864.6
+
+    label_002:
+      type:			electric kettle
+      location:		kitchen
+      description:	manufacturer: Powertec
+      from:			1582098564569
+      to:			1584342825637
+      power_min:	0.0
+      power_max:	2189.1
+
+    label_003:
+      type:			extractor fan
+      location:		kitchen
+      description:	manufacturer: Siemens
+      from:			1582098564585
+      to:			1584342829776
+      power_min:	0.0
+      power_max:	233.8
+
+    label_004:
+      type:			microwave
+      location:		kitchen
+      description:	manufacturer: Panasonic
+      from:			1582098564595
+      to:			1584342707583
+      power_min:	0.0
+      power_max:	1683.9
+
+    label_005:
+      type:			television
+      location:		living / dining room
+      description:	manufacturer: Samsung
+      from:			1582098564613
+      to:			1584342861859
+      power_min:	0.2
+      power_max:	122.5
+
+    label_006:
+      type:			television
+      location:		living / dining room
+      description:	manufacturer: Panasonic
+      from:			1582098564630
+      to:			1584342883244
+      power_min:	0.0
+      power_max:	0.1
+
+    label_007:
+      type:			washing machine
+      location:		basement
+      description:	manufacturer: Bauknecht
+      from:			1582098564650
+      to:			1584342904804
+      power_min:	0.0
+      power_max:	3047.8
+
+    label_008:
+      type:			computer
+      location:		office
+      description:	workstation incl. periphery
+      from:			1582098564658
+      to:			1584342901866
+      power_min:	0.2
+      power_max:	331.6
+
+    label_009:
+      type:			floor lamp
+      location:		office
+      description:	
+      from:			1582098564689
+      to:			1584342904669
+      power_min:	0.4
+      power_max:	205.8
+
+    label_010:
+      type:			radio
+      location:		living / dining room
+      description:	manufacturer: Grundig
+      from:			1582098564684
+      to:			1584342877174
+      power_min:	0.0
+      power_max:	4227.4
+
+--------------------------------------------------------------------------------
+hh-02
+--------------------------------------------------------------------------------
+  location (postal code):	DE-94***
+  number of residents		<=2
+  space						<=150 m^3
+
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  SMART METER MEASUREMENTS
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+    from:		1582185621202
+    to:			1590030335660
+
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  LABEL MEASUREMENTS
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+    label_001:
+      type:			charger
+      location:		living room
+      description:	mobil phone / tablet
+      from:			1584349222895
+      to:			1584870370490
+      power_min:	0.0
+      power_max:	17.4
+
+    label_002:
+      type:			television
+      location:		living room
+      description:	
+      from:			1584349201084
+      to:			1584870370543
+      power_min:	0.0
+      power_max:	112.8
+
+    label_003:
+      type:			stereo system
+      location:		bedroom
+      description:	manufacturer: Sony
+      from:			1584349200128
+      to:			1584870370458
+      power_min:	0.5
+      power_max:	70.2
+
+    label_004:
+      type:			dryer
+      location:		housekeeping room
+      description:	Bosch WTA3500
+      from:			1584349200022
+      to:			1584867384947
+      power_min:	0.0
+      power_max:	0.1
+
+    label_005:
+      type:			washing machine
+      location:		housekeeping room
+      description:	AEG Lavamat
+      from:			1584397060339
+      to:			1584867076113
+      power_min:	0.0
+      power_max:	0.2
+
+    label_006:
+      type:			battery vacuum cleaner
+      location:		office
+      description:	manufacturer: Dyson
+      from:			1584349200011
+      to:			1584870370500
+      power_min:	0.0
+      power_max:	41.9
+
+    label_007:
+      type:			computer
+      location:		office
+      description:	(workstation)
+      from:			1584478391309
+      to:			1584478759809
+      power_min:	0.0
+      power_max:	0.0
+
+    label_008:
+      type:			printer
+      location:		office
+      description:	Konica Milota
+      from:			1584349200141
+      to:			1584870370480
+      power_min:	5.0
+      power_max:	10.7
+
+    label_009:
+      type:			printer
+      location:		office
+      description:	Epson Stylus
+      from:			1584349200178
+      to:			1584870370491
+      power_min:	0.0
+      power_max:	1.4
+
+    label_010:
+      type:			monitor
+      location:		office
+      description:	Samsung Sync Master
+      from:			1584349200095
+      to:			1584870370548
+      power_min:	0.0
+      power_max:	0.0
+
+--------------------------------------------------------------------------------
+hh-03
+--------------------------------------------------------------------------------
+  location (postal code):	DE-94***
+  number of residents		>2
+  space						<=150 m^3
+
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  SMART METER MEASUREMENTS
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+    from:		1575448280604
+    to:			1590030333308
+
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  LABEL MEASUREMENTS
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+    label_001:
+      type:			coffee machine
+      location:		kitchen
+      description:	Philips Senseo
+      from:			1575320058663
+      to:			1577901599859
+      power_min:	0.0
+      power_max:	1652.7
+
+    label_002:
+      type:			bread slicer
+      location:		kitchen
+      description:	manufacturer: Grups Electronic
+      from:			1575320058665
+      to:			1577901599837
+      power_min:	0.0
+      power_max:	193.6
+
+    label_003:
+      type:			television
+      location:		living room
+      description:	manufacturer: Philips
+      from:			1575320058673
+      to:			1577838894711
+      power_min:	0.0
+      power_max:	118.1
+
+    label_004:
+      type:			washing machine
+      location:		housekeeping room
+      description:	Siemens Siwamat XL 1471
+      from:			1575320058681
+      to:			1577901599969
+      power_min:	0.0
+      power_max:	2813.6
+
+    label_005:
+      type:			dryer
+      location:		housekeeping room
+      description:	AEG Lavatherm Protex+
+      from:			1575320058687
+      to:			1577901599785
+      power_min:	0.0
+      power_max:	749.2
+
+    label_006:
+      type:			lamp
+      location:		children's room
+      description:	globe lamp
+      from:			1575320058713
+      to:			1577801657297
+      power_min:	0.0
+      power_max:	6.9
+
+    label_007:
+      type:			bedside lamp
+      location:		bedroom
+      description:	
+      from:			1575320058729
+      to:			1577901599756
+      power_min:	0.0
+      power_max:	2.9
+
+    label_008:
+      type:			charger
+      location:		kitchen
+      description:	mobil phone / tablet
+      from:			1575320058733
+      to:			1577901599892
+      power_min:	0.0
+      power_max:	234.2
+
+    label_009:
+      type:			LED lamp
+      location:		kitchen
+      description:	
+      from:			1575320058775
+      to:			1577901599850
+      power_min:	0.0
+      power_max:	60.6
+
+    label_010:
+      type:			stereo system
+      location:		living room
+      description:	
+      from:			1575320058791
+      to:			1577806270676
+      power_min:	0.0
+      power_max:	141.1
+
+--------------------------------------------------------------------------------
+hh-04
+--------------------------------------------------------------------------------
+  location (postal code):	DE-94***
+  number of residents		>2
+  space						>150 m^3
+
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  SMART METER MEASUREMENTS
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+    from:		1577657761400
+    to:			1590030333851
+
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  LABEL MEASUREMENTS
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+    label_001:
+      type:			coffee machine
+      location:		kitchen
+      description:	Krups Pro Aroma
+      from:			1577965200088
+      to:			1580027418825
+      power_min:	0.0
+      power_max:	1165.2
+
+    label_002:
+      type:			radio
+      location:		kitchen
+      description:	manufacturer: SoundMaster
+      from:			1577965200146
+      to:			1580027425986
+      power_min:	0.0
+      power_max:	7.1
+
+    label_003:
+      type:			extractor fan
+      location:		kitchen
+      description:	manufacturer: Progress
+      from:			1577965200065
+      to:			1580027521644
+      power_min:	0.0
+      power_max:	177.9
+
+    label_004:
+      type:			lamp
+      location:		kitchen
+      description:	
+      from:			1577965200080
+      to:			1580027498467
+      power_min:	0.0
+      power_max:	83.8
+
+    label_005:
+      type:			electric kettle
+      location:		kitchen
+      description:	manufacturer: Powertec Kitchen
+      from:			1577965200037
+      to:			1580027448557
+      power_min:	0.0
+      power_max:	2141.6
+
+    label_006:
+      type:			microwave
+      location:		kitchen
+      description:	Privileg 9023
+      from:			1577965200024
+      to:			1580027870981
+      power_min:	0.0
+      power_max:	1579.7
+
+    label_007:
+      type:			television
+      location:		living room
+      description:	manufacturer: Samsung
+      from:			1577965200429
+      to:			1580027595247
+      power_min:	0.0
+      power_max:	184.2
+
+    label_008:
+      type:			television-receiver
+      location:		living room
+      description:	manufacturer: Sky
+      from:			1577965200129
+      to:			1580027595265
+      power_min:	0.0
+      power_max:	27.8
+
+    label_009:
+      type:			washing machine
+      location:		staircase
+      description:	Miele Novotronic W873
+      from:			1577965200184
+      to:			1580027871005
+      power_min:	0.0
+      power_max:	2552.4
+
+    label_010:
+      type:			water pump
+      location:		garage
+      description:	manufacturer: Güde Pumpentechnik
+      from:			1577965200073
+      to:			1580027870922
+      power_min:	0.0
+      power_max:	1951.0
+
+--------------------------------------------------------------------------------
+hh-05
+--------------------------------------------------------------------------------
+  location (postal code):	DE-94***
+  number of residents		>2
+  space						<=150 m^3
+
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  SMART METER MEASUREMENTS
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+    from:		1566472366291
+    to:			1590030334875
+
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  LABEL MEASUREMENTS
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+    label_001:
+      type:			floor lamp
+      location:		kitchen
+      description:	
+      from:			1567768713830
+      to:			1571644028473
+      power_min:	0.0
+      power_max:	5.3
+
+    label_002:
+      type:			garage door opener
+      location:		garage
+      description:	HÖRMANN EcoMatic
+      from:			1567768713838
+      to:			1571644028523
+      power_min:	3.1
+      power_max:	133.1
+
+    label_003:
+      type:			fully automatic coffee machine
+      location:		kitchen
+      description:	Nivona CafeRomantica
+      from:			1567768713851
+      to:			1571643753965
+      power_min:	0.0
+      power_max:	1813.7
+
+    label_004:
+      type:			television
+      location:		kitchen
+      description:	Sharp F-239
+      from:			1567768713859
+      to:			1571644028486
+      power_min:	1.6
+      power_max:	1522.7
+
+    label_005:
+      type:			battery vacuum cleaner
+      location:		storage room
+      description:	PHILIPS SpeedPro Max
+      from:			1567768713902
+      to:			1571644028316
+      power_min:	0.0
+      power_max:	21.3
+
+    label_006:
+      type:			television
+      location:		living room
+      description:	SAMSUNG UE50H6470SS
+      from:			1567768713904
+      to:			1571644028033
+      power_min:	0.0
+      power_max:	75.7
+
+    label_007:
+      type:			washing machine
+      location:		basement
+      description:	SIEMENS iQ500
+      from:			1567768713922
+      to:			1571644028451
+      power_min:	0.0
+      power_max:	2529.4
+
+    label_008:
+      type:			water pump
+      location:		basement
+      description:	GARDENA 3500/4E
+      from:			1567768713940
+      to:			1571629728443
+      power_min:	0.0
+      power_max:	2313.5
+
+    label_009:
+      type:			television
+      location:		bedroom
+      description:	SAMSUNG UE40MU6179U
+      from:			1567768713947
+      to:			1571644028415
+      power_min:	0.0
+      power_max:	113.8
+
+    label_010:
+      type:			garage door opener
+      location:		garage
+      description:	HÖRMANN EcoMatic
+      from:			1567768713959
+      to:			1571644028511
+      power_min:	3.4
+      power_max:	126.4
+
+--------------------------------------------------------------------------------
+hh-06
+--------------------------------------------------------------------------------
+  location (postal code):	DE-94***
+  number of residents		>2
+  space						<=150 m^3
+
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  SMART METER MEASUREMENTS
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+    from:		1571817600265
+    to:			1590030333932
+
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  LABEL MEASUREMENTS
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+    label_001:
+      type:			coffee machine
+      location:		kitchen (upper floor)
+      description:	Philips Senseo
+      from:			1571668800108
+      to:			1574669329037
+      power_min:	0.0
+      power_max:	1590.7
+
+    label_002:
+      type:			radio
+      location:		kitchen (upper floor)
+      description:	manufacturer: SoundMaster
+      from:			1571668800021
+      to:			1574669329212
+      power_min:	0.0
+      power_max:	802.6
+
+    label_003:
+      type:			television
+      location:		living room (upper floor)
+      description:	manufacturer: Grundig
+      from:			1571668800123
+      to:			1574669181456
+      power_min:	0.1
+      power_max:	97.3
+
+    label_004:
+      type:			washing machine
+      location:		bathroom (ground floor)
+      description:	manufacturer: Constructa
+      from:			1571668800052
+      to:			1574668904506
+      power_min:	0.0
+      power_max:	2555.9
+
+    label_005:
+      type:			coffee machine
+      location:		living room (ground floor)
+      description:	Melita Look
+      from:			1571668800066
+      to:			1574669329168
+      power_min:	0.0
+      power_max:	972.8
+
+    label_006:
+      type:			television
+      location:		living room (ground floor)
+      description:	DAEWOO (tube tv)
+      from:			1571668800132
+      to:			1574669329077
+      power_min:	0.0
+      power_max:	2022.3
+
+    label_007:
+      type:			floor lamp + phone
+      location:		living room (ground floor)
+      description:	
+      from:			1571668800059
+      to:			1574669329110
+      power_min:	0.0
+      power_max:	118.4
+
+    label_008:
+      type:			water baller
+      location:		living room (ground floor)
+      description:	Thermoflow UT 5
+      from:			1571668800156
+      to:			1574669329022
+      power_min:	0.0
+      power_max:	2236.2
+
+    label_009:
+      type:			hairdryer
+      location:		bathroom (upper floor)
+      description:	manufacturer: SilverCrest
+      from:			1571668800028
+      to:			1574669328976
+      power_min:	0.0
+      power_max:	2295.2
+
+    label_010:
+      type:			hair straightener
+      location:		bathroom (upper floor)
+      description:	manufacturer: Petra
+      from:			1571668800083
+      to:			1574669329180
+      power_min:	0.0
+      power_max:	2175.0
+
+--------------------------------------------------------------------------------
+hh-07
+--------------------------------------------------------------------------------
+  location (postal code):	DE-94***
+  number of residents		<=2
+  space						>150 m^3
+
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  SMART METER MEASUREMENTS
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+    from:		1571817600902
+    to:			1590030334091
+
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  LABEL MEASUREMENTS
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+    label_001:
+      type:			fully automatic coffee machine
+      location:		kitchen
+      description:	manufacturer: Jura
+      from:			1571676000110
+      to:			1574688688758
+      power_min:	0.0
+      power_max:	1719.4
+
+    label_002:
+      type:			microwave
+      location:		kitchen
+      description:	manufacturer: Panasonic
+      from:			1571676000120
+      to:			1574688688565
+      power_min:	0.0
+      power_max:	1687.0
+
+    label_003:
+      type:			electric kettle
+      location:		kitchen
+      description:	manufacturer: WMF
+      from:			1571676000010
+      to:			1574688688641
+      power_min:	0.0
+      power_max:	2885.8
+
+    label_004:
+      type:			vacuum cleaner
+      location:		kitchen
+      description:	
+      from:			1571676000140
+      to:			1574688688738
+      power_min:	0.0
+      power_max:	572.0
+
+    label_005:
+      type:			floor lamp
+      location:		kitchen
+      description:	
+      from:			1571676000067
+      to:			1574688688727
+      power_min:	0.0
+      power_max:	3.9
+
+    label_006:
+      type:			computer
+      location:		office
+      description:	manufacturer: Medion
+      from:			1571676000149
+      to:			1574676956869
+      power_min:	0.0
+      power_max:	93.1
+
+    label_007:
+      type:			printer
+      location:		office
+      description:	Brother MFC J53 35DW
+      from:			1571676000036
+      to:			1574688688654
+      power_min:	0.0
+      power_max:	53.1
+
+    label_008:
+      type:			television
+      location:		living room
+      description:	manufacturer: Philips
+      from:			1571677183410
+      to:			1574630136494
+      power_min:	0.0
+      power_max:	392.7
+
+    label_009:
+      type:			floor lamp
+      location:		living room
+      description:	
+      from:			1571676000018
+      to:			1574688688720
+      power_min:	0.0
+      power_max:	24.4
+
+    label_010:
+      type:			radio
+      location:		bedroom
+      description:	manufacturer: Bose
+      from:			1571676000102
+      to:			1574688688666
+      power_min:	0.6
+      power_max:	18.3
+
+--------------------------------------------------------------------------------
+hh-08
+--------------------------------------------------------------------------------
+  location (postal code):	DE-94***
+  number of residents		>2
+  space						>150 m^3
+
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  SMART METER MEASUREMENTS
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+    from:		1575990885288
+    to:			1590030334882
+
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  LABEL MEASUREMENTS
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+    label_001:
+      type:			coffee machine
+      location:		kitchen
+      description:	Philips Senseo
+      from:			1577973000131
+      to:			1580730188740
+      power_min:	0.0
+      power_max:	1567.7
+
+    label_002:
+      type:			toaster
+      location:		kitchen
+      description:	manufacturer: WMF
+      from:			1577973000084
+      to:			1580730203789
+      power_min:	0.0
+      power_max:	898.9
+
+    label_003:
+      type:			electric kettle
+      location:		kitchen
+      description:	manufacturer: Elta
+      from:			1577973000166
+      to:			1580730176886
+      power_min:	0.0
+      power_max:	2101.1
+
+    label_004:
+      type:			Thermomix
+      location:		kitchen
+      description:	Thermomix TM31
+      from:			1577973000058
+      to:			1580730224916
+      power_min:	0.0
+      power_max:	1148.9
+
+    label_005:
+      type:			television
+      location:		kitchen
+      description:	manufacturer: Samsung
+      from:			1577973000099
+      to:			1580730224832
+      power_min:	0.0
+      power_max:	194.3
+
+    label_006:
+      type:			television-receiver
+      location:		kitchen
+      description:	manufacturer: Sky
+      from:			1577973000124
+      to:			1580730224756
+      power_min:	11.1
+      power_max:	29.8
+
+    label_007:
+      type:			battery vacuum cleaner
+      location:		children's room
+      description:	manufacturer: Dyson
+      from:			1577973000067
+      to:			1580730224904
+      power_min:	0.0
+      power_max:	41.5
+
+    label_008:
+      type:			television
+      location:		children's room
+      description:	manufacturer: Samsung
+      from:			1577973000016
+      to:			1580730171957
+      power_min:	0.0
+      power_max:	522.1
+
+    label_009:
+      type:			hairdryer
+      location:		bathroom
+      description:	manufacturer: Dyson
+      from:			1577973000080
+      to:			1580730146239
+      power_min:	0.0
+      power_max:	1667.7
+
+    label_010:
+      type:			hairdryer
+      location:		bathroom
+      description:	manufacturer: Remington
+      from:			1577973000025
+      to:			1580730146432
+      power_min:	0.0
+      power_max:	2092.1
+
+--------------------------------------------------------------------------------
+hh-09
+--------------------------------------------------------------------------------
+  location (postal code):	DE-94***
+  number of residents		>2
+  space						>150 m^3
+
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  SMART METER MEASUREMENTS
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+    from:		1566472367482
+    to:			1590030334192
+
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  LABEL MEASUREMENTS
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+    label_001:
+      type:			garage door opener
+      location:		garage
+      description:	HÖRMANN EcoMatic
+      from:			1567783800055
+      to:			1571587449775
+      power_min:	2.9
+      power_max:	149.8
+
+    label_002:
+      type:			garage door opener
+      location:		garage
+      description:	HÖRMANN EcoMatic
+      from:			1567783800106
+      to:			1571587449777
+      power_min:	3.5
+      power_max:	173.4
+
+    label_003:
+      type:			coffee machine
+      location:		kitchen
+      description:	Melita Optima
+      from:			1567783800002
+      to:			1571587449754
+      power_min:	0.0
+      power_max:	923.5
+
+    label_004:
+      type:			microwave
+      location:		kitchen
+      description:	manufacturer: INOTEC
+      from:			1567783800118
+      to:			1571587449863
+      power_min:	0.8
+      power_max:	1495.4
+
+    label_005:
+      type:			television
+      location:		living room
+      description:	Panasonic Viera
+      from:			1567783957433
+      to:			1571587449797
+      power_min:	0.0
+      power_max:	188.5
+
+    label_006:
+      type:			washing machine
+      location:		housekeeping room
+      description:	SIEMENS E14.1S
+      from:			1567783800012
+      to:			1571587449814
+      power_min:	0.0
+      power_max:	2662.9
+
+    label_007:
+      type:			dryer
+      location:		housekeeping room
+      description:	BOSCH MAXX 7 Sensitiv
+      from:			1567783963091
+      to:			1571587449880
+      power_min:	0.0
+      power_max:	3079.5
+
+    label_008:
+      type:			extractor fan
+      location:		kitchen
+      description:	Buderus Juno
+      from:			1567783800025
+      to:			1571587449851
+      power_min:	0.0
+      power_max:	185.1
+
+    label_009:
+      type:			television
+      location:		granny flat
+      description:	manufacturer: SONY
+      from:			1567783800065
+      to:			1571587404918
+      power_min:	0.0
+      power_max:	1387.5
+
+    label_010:
+      type:			vacuum cleaner
+      location:		granny flat
+      description:	Vorwerk Kobold VT300
+      from:			1567783951292
+      to:			1571587372992
+      power_min:	0.0
+      power_max:	761.2
+
+--------------------------------------------------------------------------------
+hh-10
+--------------------------------------------------------------------------------
+  location (postal code):	DE-94***
+  number of residents		>2
+  space						>150 m^3
+
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  SMART METER MEASUREMENTS
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+    from:		1582185792190
+    to:			1590030334941
+
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  LABEL MEASUREMENTS
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+    label_001:
+      type:			electric kettle
+      location:		kitchen
+      description:	manufacturer: Petra
+      from:			1581942600594
+      to:			1582238555288
+      power_min:	0.0
+      power_max:	1939.1
+
+    label_002:
+      type:			fully automatic coffee machine
+      location:		kitchen
+      description:	Nivona CafeRomantica
+      from:			1581942602116
+      to:			1582238555443
+      power_min:	0.0
+      power_max:	1672.1
+
+    label_003:
+      type:			Thermomix
+      location:		kitchen
+      description:	Thermomix TM5
+      from:			1581942600142
+      to:			1582238555342
+      power_min:	0.3
+      power_max:	0.5
+
+    label_004:
+      type:			extractor fan
+      location:		kitchen
+      description:	manufacturer: Miele
+      from:			1581942600123
+      to:			1582238555273
+      power_min:	0.0
+      power_max:	1074.5
+
+    label_005:
+      type:			television
+      location:		living room
+      description:	Sharp Quatrons Aquos
+      from:			1581942600014
+      to:			1582238555332
+      power_min:	0.0
+      power_max:	124.2
+
+    label_006:
+      type:			sound-system
+      location:		living room
+      description:	manufacturer: Sky
+      from:			1581942600061
+      to:			1582238555463
+      power_min:	0.0
+      power_max:	9.8
+
+    label_007:
+      type:			radio
+      location:		office
+      description:	manufacturer: Makita
+      from:			1581942600039
+      to:			1582238555397
+      power_min:	0.0
+      power_max:	5.1
+
+    label_008:
+      type:			printer
+      location:		office
+      description:	HP OfficejetPro 8616
+      from:			1581942600036
+      to:			1582238555308
+      power_min:	0.0
+      power_max:	55.9
+
+    label_009:
+      type:			television
+      location:		children's room
+      description:	manufacturer: Panasonic
+      from:			1581942659188
+      to:			1582238555450
+      power_min:	0.0
+      power_max:	177.4
+
+    label_010:
+      type:			sound-system
+      location:		children's room
+      description:	manufacturer: Samsung
+      from:			1581942600135
+      to:			1582238555356
+      power_min:	0.0
+      power_max:	23.1
+
+--------------------------------------------------------------------------------
+hh-11
+--------------------------------------------------------------------------------
+  location (postal code):	DE-94***
+  number of residents		>2
+  space						<=150 m^3
+
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  SMART METER MEASUREMENTS
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+    from:		1576054331615
+    to:			1590030335673
+
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  LABEL MEASUREMENTS
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+    label_001:
+      type:			television
+      location:		living room
+      description:	Samsung 650
+      from:			1575291600017
+      to:			1577952052488
+      power_min:	0.0
+      power_max:	173.8
+
+    label_002:
+      type:			television-receiver
+      location:		living room
+      description:	Fergusos Ariva 52E
+      from:			1575291600125
+      to:			1577952064445
+      power_min:	0.0
+      power_max:	101.0
+
+    label_003:
+      type:			floor lamp
+      location:		living room
+      description:	
+      from:			1575291600132
+      to:			1577951995319
+      power_min:	0.0
+      power_max:	7.4
+
+    label_004:
+      type:			toaster
+      location:		kitchen
+      description:	manufacturer: SilverCrest
+      from:			1575291600050
+      to:			1577952121921
+      power_min:	0.0
+      power_max:	886.0
+
+    label_005:
+      type:			electric kettle
+      location:		kitchen
+      description:	manufacturer: SilverCrest
+      from:			1575292104599
+      to:			1577952127945
+      power_min:	0.0
+      power_max:	2839.1
+
+    label_006:
+      type:			juicer
+      location:		kitchen
+      description:	manufacturer: Monzana
+      from:			1575292175516
+      to:			1577952162698
+      power_min:	0.0
+      power_max:	1073.6
+
+    label_007:
+      type:			coffee machine
+      location:		kitchen
+      description:	manufacturer: Petra
+      from:			1575291600069
+      to:			1577952143581
+      power_min:	0.0
+      power_max:	1660.9
+
+    label_008:
+      type:			dryer
+      location:		bathroom
+      description:	Siemens iW590
+      from:			1575291600042
+      to:			1577951869510
+      power_min:	0.0
+      power_max:	3024.0
+
+    label_009:
+      type:			television
+      location:		bedroom
+      description:	iMac
+      from:			1575291600092
+      to:			1577951838224
+      power_min:	0.0
+      power_max:	185.0
+
+    label_010:
+      type:			computer
+      location:		office
+      description:	laptop + docking station (Lenovo ThinkPad)
+      from:			1575291600024
+      to:			1577951785947
+      power_min:	0.0
+      power_max:	103.3
+
+--------------------------------------------------------------------------------
+hh-12
+--------------------------------------------------------------------------------
+  location (postal code):	DE-94***
+  number of residents		<=2
+  space						<=150 m^3
+
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  SMART METER MEASUREMENTS
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+    from:		1576316886485
+    to:			1590030334587
+
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  LABEL MEASUREMENTS
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+    label_001:
+      type:			bread slicer
+      location:		kitchen
+      description:	manufacturer: Siemens
+      from:			1576584000225
+      to:			1577794410248
+      power_min:	0.0
+      power_max:	276.0
+
+    label_002:
+      type:			floor lamp
+      location:		living room
+      description:	
+      from:			1576584000138
+      to:			1577794366876
+      power_min:	0.0
+      power_max:	25.6
+
+    label_003:
+      type:			bedside lamp
+      location:		bedroom
+      description:	
+      from:			1576584000010
+      to:			1576829198690
+      power_min:	0.0
+      power_max:	20.2
+
+    label_004:
+      type:			coffee machine
+      location:		kitchen
+      description:	Severin Duo
+      from:			1576584000179
+      to:			1577794425999
+      power_min:	0.0
+      power_max:	1666.5
+
+    label_005:
+      type:			microwave
+      location:		kitchen
+      description:	manufacturer: Sharp
+      from:			1576584000110
+      to:			1576830785651
+      power_min:	0.2
+      power_max:	0.7
+
+    label_006:
+      type:			washing machine
+      location:		housekeeping room
+      description:	manufacturer: Bauknecht
+      from:			1576584000051
+      to:			1576883267735
+      power_min:	0.0
+      power_max:	2472.2
+
+    label_007:
+      type:			dryer
+      location:		housekeeping room
+      description:	Siemens varioPerfect E14-42
+      from:			1576584000198
+      to:			1576815522460
+      power_min:	0.0
+      power_max:	0.6
+
+    label_008:
+      type:			television
+      location:		living room
+      description:	Samsung UE46ES6300SXZG
+      from:			1576584000103
+      to:			1577794351467
+      power_min:	0.1
+      power_max:	158.0
+
+    label_009:
+      type:			fully automatic coffee machine
+      location:		kitchen
+      description:	DeLonghi Magnifica
+      from:			1576584000065
+      to:			1577794395657
+      power_min:	0.0
+      power_max:	1503.7
+
+    label_010:
+      type:			DVD player
+      location:		living room
+      description:	manufacturer: Cyber Home
+      from:			1576584000122
+      to:			1577794363472
+      power_min:	2.1
+      power_max:	4.2
+
+--------------------------------------------------------------------------------
+hh-13
+--------------------------------------------------------------------------------
+  location (postal code):	DE-94***
+  number of residents		<=2
+  space						>150 m^3
+
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  SMART METER MEASUREMENTS
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+    from:		1576224765178
+    to:			1590030334757
+
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  LABEL MEASUREMENTS
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+    label_001:
+      type:			garage door opener
+      location:		garage
+      description:	manufacturer: RUKUMAT
+      from:			1577968201527
+      to:			1580025711751
+      power_min:	3.4
+      power_max:	222.7
+
+    label_002:
+      type:			radio
+      location:		garage
+      description:	
+      from:			1577968201508
+      to:			1580025711721
+      power_min:	0.0
+      power_max:	27.2
+
+    label_003:
+      type:			coffee machine
+      location:		kitchen
+      description:	manufacturer: Philips
+      from:			1577968200019
+      to:			1580025396504
+      power_min:	0.0
+      power_max:	1094.9
+
+    label_004:
+      type:			Thermomix
+      location:		kitchen
+      description:	Thermomix TM31
+      from:			1577968200110
+      to:			1580025398321
+      power_min:	0.0
+      power_max:	1190.6
+
+    label_005:
+      type:			charger
+      location:		kitchen
+      description:	mobil phone / tablet
+      from:			1577968200055
+      to:			1580025414252
+      power_min:	0.0
+      power_max:	19.6
+
+    label_006:
+      type:			television
+      location:		living room
+      description:	manufacturer: Samsung
+      from:			1577968200084
+      to:			1580025446632
+      power_min:	0.0
+      power_max:	175.2
+
+    label_007:
+      type:			floor lamp
+      location:		living room
+      description:	
+      from:			1577968200062
+      to:			1580025711775
+      power_min:	0.0
+      power_max:	32.5
+
+    label_008:
+      type:			radio
+      location:		bathroom
+      description:	
+      from:			1577968200120
+      to:			1580025711810
+      power_min:	0.0
+      power_max:	8.9
+
+    label_009:
+      type:			washing machine
+      location:		basement
+      description:	Miele Softtronic W1714
+      from:			1577968201649
+      to:			1580025711817
+      power_min:	0.0
+      power_max:	2572.5
+
+    label_010:
+      type:			washing machine
+      location:		basement
+      description:	Gorenje SensoCare
+      from:			1577968201515
+      to:			1580025295784
+      power_min:	0.0
+      power_max:	1715.6
+
+--------------------------------------------------------------------------------
+hh-14
+--------------------------------------------------------------------------------
+  location (postal code):	DE-94***
+  number of residents		>2
+  space						>150 m^3
+
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  SMART METER MEASUREMENTS
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+    from:		1582185325729
+    to:			1590030334954
+
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  LABEL MEASUREMENTS
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+    label_001:
+      type:			Thermomix
+      location:		kitchen
+      description:	Thermomix TM31
+      from:			1584437400339
+      to:			1587450718456
+      power_min:	0.0
+      power_max:	1140.3
+
+    label_002:
+      type:			toaster
+      location:		kitchen
+      description:	manufacturer: Bosch
+      from:			1584437400082
+      to:			1587450718420
+      power_min:	0.0
+      power_max:	993.0
+
+    label_003:
+      type:			coffee machine
+      location:		kitchen
+      description:	manufacturer: Bosch
+      from:			1584437400095
+      to:			1587450718289
+      power_min:	0.0
+      power_max:	1140.3
+
+    label_004:
+      type:			electric kettle
+      location:		kitchen
+      description:	manufacturer: Bosch
+      from:			1584437400092
+      to:			1587450718321
+      power_min:	0.0
+      power_max:	2335.2
+
+    label_005:
+      type:			microwave
+      location:		kitchen
+      description:	manufacturer: Samsung
+      from:			1584437400030
+      to:			1587450718311
+      power_min:	0.0
+      power_max:	1567.8
+
+    label_006:
+      type:			radio
+      location:		kitchen
+      description:	manufacturer: Scott
+      from:			1584437400072
+      to:			1587450718430
+      power_min:	0.4
+      power_max:	2.6
+
+    label_007:
+      type:			washing machine
+      location:		housekeeping room
+      description:	Miele Edition 111
+      from:			1584437400037
+      to:			1587450718445
+      power_min:	0.0
+      power_max:	2513.2
+
+    label_008:
+      type:			vacuum cleaner robot
+      location:		hallway
+      description:	Vorwerk Kobold VR 300
+      from:			1584437400121
+      to:			1587450718412
+      power_min:	0.0
+      power_max:	49.2
+
+    label_009:
+      type:			television
+      location:		children's room
+      description:	manufacturer: Grundig
+      from:			1584437400063
+      to:			1587450718329
+      power_min:	0.0
+      power_max:	56.6
+
+    label_010:
+      type:			charger
+      location:		living rool
+      description:	mobil phone / tablet
+      from:			1584437400109
+      to:			1587450718277
+      power_min:	0.0
+      power_max:	7.3
+
+--------------------------------------------------------------------------------
+hh-15
+--------------------------------------------------------------------------------
+  location (postal code):	DE-94***
+  number of residents		>2
+  space						>150 m^3
+
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  SMART METER MEASUREMENTS
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+    from:		1576054102729
+    to:			1590030334352
+
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  LABEL MEASUREMENTS
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+    label_001:
+      type:			language assistance system
+      location:		kitchen
+      description:	Alexa Echo generation 2
+      from:			1580133600078
+      to:			1581760798000
+      power_min:	0.0
+      power_max:	4.8
+
+    label_002:
+      type:			coffee machine
+      location:		kitchen
+      description:	DeLonghi Magifica
+      from:			1580133600063
+      to:			1581760799919
+      power_min:	0.0
+      power_max:	1210.2
+
+    label_003:
+      type:			toaster
+      location:		kitchen
+      description:	manufacturer: Severin
+      from:			1580133600116
+      to:			1581760799963
+      power_min:	0.0
+      power_max:	882.2
+
+    label_004:
+      type:			floor lamp
+      location:		kitchen
+      description:	
+      from:			1580133600015
+      to:			1581760799878
+      power_min:	0.0
+      power_max:	109.5
+
+    label_005:
+      type:			television
+      location:		living room
+      description:	manufacturer: Samsung
+      from:			1580133600005
+      to:			1581760798085
+      power_min:	0.0
+      power_max:	910.1
+
+    label_006:
+      type:			circulation pump
+      location:		boiler room
+      description:	
+      from:			1580133600071
+      to:			1581760799969
+      power_min:	0.6
+      power_max:	41.0
+
+    label_007:
+      type:			washing machine
+      location:		basement
+      description:	Samsung Digital Inverter
+      from:			1580133600003
+      to:			1581760799987
+      power_min:	0.0
+      power_max:	2295.2
+
+    label_008:
+      type:			dryer
+      location:		basement
+      description:	Samsung ExtraKlasse E44-18
+      from:			1580133600055
+      to:			1581760799868
+      power_min:	0.0
+      power_max:	2924.2
+
+    label_009:
+      type:			battery vacuum cleaner
+      location:		housekeeping room
+      description:	
+      from:			1580133600020
+      to:			1581760799909
+      power_min:	0.0
+      power_max:	18.8
+
+    label_010:
+      type:			flat iron
+      location:		housekeeping room
+      description:	
+      from:			1580133600045
+      to:			1581760799888
+      power_min:	0.0
+      power_max:	2207.0
+
+--------------------------------------------------------------------------------
+hh-16
+--------------------------------------------------------------------------------
+  location (postal code):	DE-94***
+  number of residents		<=2
+  space						>150 m^3
+
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  SMART METER MEASUREMENTS
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+    from:		1571817600000
+    to:			1590030334167
+
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  LABEL MEASUREMENTS
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+    label_001:
+      type:			garage door opener
+      location:		garage
+      description:	
+      from:			1571661000500
+      to:			1574681605624
+      power_min:	0.0
+      power_max:	274.2
+
+    label_002:
+      type:			coffee machine
+      location:		kitchen
+      description:	Philips Senseo
+      from:			1571661000170
+      to:			1574680967367
+      power_min:	0.0
+      power_max:	1639.2
+
+    label_003:
+      type:			toaster
+      location:		kitchen
+      description:	manufacturer: Unold
+      from:			1571661000064
+      to:			1574680942417
+      power_min:	0.0
+      power_max:	2272.0
+
+    label_004:
+      type:			television
+      location:		living room
+      description:	manufacturer: Samsung
+      from:			1571661000072
+      to:			1574680887008
+      power_min:	0.0
+      power_max:	331.6
+
+    label_005:
+      type:			computer
+      location:		living room
+      description:	manufacturer: Asus (workstation)
+      from:			1571661000006
+      to:			1574680440566
+      power_min:	0.0
+      power_max:	200.5
+
+    label_006:
+      type:			hairdryer
+      location:		bathroom
+      description:	
+      from:			1571661000039
+      to:			1574680543746
+      power_min:	0.0
+      power_max:	1151.4
+
+    label_007:
+      type:			battery vacuum cleaner
+      location:		housekeeping room
+      description:	AEG CX7 Animal | X Flexibility
+      from:			1571661000053
+      to:			1574503513854
+      power_min:	0.0
+      power_max:	17.0
+
+    label_008:
+      type:			light alarm clock
+      location:		bedroom
+      description:	
+      from:			1571661008599
+      to:			1574680512366
+      power_min:	0.1
+      power_max:	1.7
+
+    label_009:
+      type:			telephone
+      location:		hallway
+      description:	manufacturer: Gigaset
+      from:			1571661000008
+      to:			1574680607524
+      power_min:	0.0
+      power_max:	20.1
+
+    label_010:
+      type:			printer
+      location:		living room
+      description:	Canon MB5350
+      from:			1571661000028
+      to:			1574680408134
+      power_min:	0.0
+      power_max:	49.4
+
+--------------------------------------------------------------------------------
+hh-17
+--------------------------------------------------------------------------------
+  location (postal code):	DE-94***
+  number of residents		<=2
+  space						>150 m^3
+
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  SMART METER MEASUREMENTS
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+    from:		1576053974934
+    to:			1590030334069
+
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  LABEL MEASUREMENTS
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+    label_001:
+      type:			electric kettle
+      location:		kitchen
+      description:	manufacturer: Tefal
+      from:			1578317400110
+      to:			1580819993801
+      power_min:	0.0
+      power_max:	2305.8
+
+    label_002:
+      type:			coffee machine
+      location:		kitchen
+      description:	manufacturer: Bosch
+      from:			1578317400127
+      to:			1580819963289
+      power_min:	0.0
+      power_max:	1163.9
+
+    label_003:
+      type:			toaster
+      location:		kitchen
+      description:	manufacturer: Braun
+      from:			1578317400088
+      to:			1580819963293
+      power_min:	0.0
+      power_max:	1151.5
+
+    label_004:
+      type:			radio
+      location:		kitchen
+      description:	manufacturer: Grundig
+      from:			1578317400614
+      to:			1580819995827
+      power_min:	0.6
+      power_max:	3.7
+
+    label_005:
+      type:			television
+      location:		living room
+      description:	manufacturer: Panasonic
+      from:			1578317400160
+      to:			1580820021432
+      power_min:	0.0
+      power_max:	88.3
+
+    label_006:
+      type:			stereo system
+      location:		living room
+      description:	manufacturer: Kenwood
+      from:			1578317400081
+      to:			1580820021421
+      power_min:	9.7
+      power_max:	84.5
+
+    label_007:
+      type:			floor lamp
+      location:		living room
+      description:	
+      from:			1578317400015
+      to:			1580820021377
+      power_min:	0.0
+      power_max:	7.2
+
+    label_008:
+      type:			floor lamp
+      location:		living room
+      description:	
+      from:			1578317400121
+      to:			1580820018868
+      power_min:	0.0
+      power_max:	326.7
+
+    label_009:
+      type:			dryer
+      location:		housekeeping room
+      description:	manufacturer: Bosch Serie 4
+      from:			1578317400031
+      to:			1580820021248
+      power_min:	0.0
+      power_max:	3166.1
+
+    label_010:
+      type:			garage door opener
+      location:		garage
+      description:	manufacturer: HÖRMANN
+      from:			1578317400073
+      to:			1580820021402
+      power_min:	4.4
+      power_max:	185.4
+
+--------------------------------------------------------------------------------
+hh-18
+--------------------------------------------------------------------------------
+  location (postal code):	DE-94***
+  number of residents		<=2
+  space						<=150 m^3
+
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  SMART METER MEASUREMENTS
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+    from:		1582128138400
+    to:			1590030335144
+
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  LABEL MEASUREMENTS
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+    label_001:
+      type:			coffee machine
+      location:		kitchen
+      description:	Bosch ComfortLine
+      from:			1582549200024
+      to:			1584339193305
+      power_min:	0.0
+      power_max:	1613.3
+
+    label_002:
+      type:			electric kettle
+      location:		kitchen
+      description:	manufacturer: WMF
+      from:			1582549200011
+      to:			1584339218143
+      power_min:	0.0
+      power_max:	2106.8
+
+    label_003:
+      type:			toaster
+      location:		kitchen
+      description:	manufacturer: WMF
+      from:			1582549200071
+      to:			1584339212795
+      power_min:	0.0
+      power_max:	863.6
+
+    label_004:
+      type:			television
+      location:		living room
+      description:	manufacturer: Sharp
+      from:			1582549200059
+      to:			1584339131898
+      power_min:	0.0
+      power_max:	398.0
+
+    label_005:
+      type:			floor lamp
+      location:		living room
+      description:	
+      from:			1582549200122
+      to:			1584339233444
+      power_min:	0.0
+      power_max:	28.5
+
+    label_006:
+      type:			dryer
+      location:		basement
+      description:	Siemens E46/10
+      from:			1582549200091
+      to:			1584339126039
+      power_min:	0.0
+      power_max:	2949.0
+
+    label_007:
+      type:			washing machine
+      location:		basement
+      description:	AEG Lavamat
+      from:			1582549200109
+      to:			1584289053721
+      power_min:	0.0
+      power_max:	317.9
+
+    label_008:
+      type:			bedside lamp
+      location:		bedroom
+      description:	
+      from:			1582549200209
+      to:			1584339233341
+      power_min:	0.0
+      power_max:	43.1
+
+    label_009:
+      type:			hairdryer
+      location:		bathroom
+      description:	
+      from:			1582551203121
+      to:			1584338624707
+      power_min:	0.0
+      power_max:	2065.3
+
+    label_010:
+      type:			printer
+      location:		office
+      description:	HP ENVY
+      from:			1582549200111
+      to:			1584339175045
+      power_min:	0.0
+      power_max:	67.8
+
+--------------------------------------------------------------------------------

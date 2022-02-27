@@ -1,0 +1,81 @@
+instance: 4
+original_name: house_4   # original name from GeLaP dataset
+elec_meters:
+  1: &emonitor
+    submeter_of: 0 
+    device_model: GeLaP_monitor
+  2: *emonitor
+  3: *emonitor
+  4: *emonitor
+  5: *emonitor
+  6: *emonitor
+  7: *emonitor
+  8: *emonitor
+  9: *emonitor
+  10: *emonitor  
+  11: &gelap_whole_house 
+    site_meter: true
+    device_model: Gelap_whole_house
+
+appliances:
+- original_name: coffee machine
+  room: kitchen
+  type: coffee maker
+  instance: 1
+  meters: [1] 
+
+- original_name: radio
+  room: kitchen
+  type: radio
+  instance: 1
+  meters: [2]
+
+- original_name: extractor fan
+  room: kitchen
+  type: unknown
+  instance: 1
+  multiple: true
+  meters: [3]
+
+- original_name: lamp
+  room: kitchen
+  type: lamp
+  instance: 1
+  meters: [4]
+
+- original_name: electric kettle
+  room: kitchen
+  type: kettle
+  instance: 1
+  meters: [5]
+
+- original_name: microwave
+  room: kitchen
+  type: microwave
+  instance: 1
+  meters: [6]
+
+- original_name: television
+  room: living
+  type: television
+  instance: 1
+  meters: [7]
+
+- original_name: television-receiver
+  room: living
+  type: unknown
+  instance: 2
+  multiple: true
+  meters: [8]
+
+- original_name: washing machine
+  room: staircase
+  type: washing machine
+  instance: 1
+  meters: [9]
+
+- original_name: water pump
+  room: garage
+  type: water pump
+  instance: 1
+  meters: [10]
