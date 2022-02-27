@@ -12,6 +12,11 @@ from nilmtk.utils import get_datastore
 warnings.simplefilter(action="ignore", category=FutureWarning)
 
 
+NUM_HOUSES = 20
+NUM_ELECS_PER_HOUSE = 10
+SITE_METER_NUMBER = 11
+
+
 def convert_gelap(
     gelap_path: str, output_filename: str, uncompress_tars: bool = True
 ) -> None:
@@ -22,12 +27,26 @@ def convert_gelap(
         The root path of the GeLaP.
     output_filename : str
         The destination filename (including path and suffix).
+    uncompress_tars : bool
+        If False, it does NOT unzip all the .tar.xz files from each of the 
+        houses. Useful when you already have these files uncompressed and 
+        you don't want to repeat the process.
+    
+    Notes
+    -----
+    The data is downloaded from the gitlab repository. For this, it is 
+    recommended to use the option to download the repository in zip format 
+    (or by accessing this link: 
+    https://mygit.th-deg.de/tcg/gelap/-/archive/master/gelap-master.zip ).
     """
+
+    if uncompress_tars:
+        _uncompress_houses_tar(gelap_path)
 
     store = get_datastore(output_filename, "HDF", mode="w")
 
     # Convert raw data to DataStore
-    _convert(gelap_path, store, uncompress=uncompress_tars)
+    _convert(gelap_path, store)
 
     metadata_path = "metadata"
 
@@ -47,7 +66,7 @@ def _uncompress_tar(tar_path: str, output_path: str) -> None:
 def _uncompress_houses_tar(gelap_path: str) -> None:
     houses_tar_path = {
         house_number: join(gelap_path, f"hh-{house_number:02}.tar.xz")
-        for house_number in range(1, 21)
+        for house_number in range(1, NUM_HOUSES + 1)
     }
     for house_number, house_tar_path in houses_tar_path.items():
         print(f"Uncompressing {house_tar_path} ...")
@@ -104,14 +123,13 @@ def _convert_house(
     site_meter_csv = join(house_path, "smartmeter.csv")
     elecs_csv_path = {
         elec_number: join(house_path, f"label_{elec_number:03}.csv")
-        for elec_number in range(1, 11)
+        for elec_number in range(1, NUM_ELECS_PER_HOUSE + 1)
     }
 
     # reading csv
     print(f"Reading site_meter from: {site_meter_csv} ...")
     df_site_meter = _read_site_meter_csv(site_meter_csv, sort_index, drop_duplicates)
-    site_meter_number = 11
-    key = Key(building=house_number, meter=site_meter_number)
+    key = Key(building=house_number, meter=SITE_METER_NUMBER)
     store.put(str(key), df_site_meter)
 
     for elec_number, elec_csv_path in elecs_csv_path.items():
@@ -122,16 +140,9 @@ def _convert_house(
 
 
 def _convert(
-    gelap_path: str,
-    store,
-    sort_index: bool = True,
-    drop_duplicates: bool = False,
-    uncompress: bool = True,
+    gelap_path: str, store, sort_index: bool = True, drop_duplicates: bool = False
 ) -> None:
-    if uncompress:
-        _uncompress_houses_tar(gelap_path)
-    num_houses = 20
-    for house_number in range(1, num_houses + 1):
+    for house_number in range(1, NUM_HOUSES + 1):
         print(f"Converting house {house_number}...")
         house_path = join(gelap_path, f"hh-{house_number:02}")
         _convert_house(house_path, house_number, store, sort_index, drop_duplicates)
