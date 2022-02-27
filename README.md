@@ -1,7 +1,7 @@
 # GeLaP Dataset converter for NILMTK
 The repository with the complete information of this dataset can be found at: https://mygit.th-deg.de/tcg/gelap .
 
-## Download
+## Download Raw Data
 The data is downloaded from the gitlab repository. For this, it is recommended to use the option to download the repository in zip format (or by accessing this link: https://mygit.th-deg.de/tcg/gelap/-/archive/master/gelap-master.zip).
 
 Once the gitlab zip is downloaded, unzip the folder it contains, and that will be the input for the converter.
@@ -9,7 +9,7 @@ Once the gitlab zip is downloaded, unzip the folder it contains, and that will b
 ## Converter
 The converter follows the usual format of the other NILMTK converters. For more details go to the NILMTK repository: https://github.com/nilmtk/nilmtk
 
-## Data converted
+## Converted Data 
 The converted h5 file has the data for the 20 houses, with 10 appliances each.
 The sampling rate is 1 sample per second for the aggregate measurement, and on average one sample every 0.28 seconds for individual devices.
 
