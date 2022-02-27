@@ -1912,3 +1912,216 @@ hh-18
       power_max:	67.8
 
 --------------------------------------------------------------------------------
+hh-19
+--------------------------------------------------------------------------------
+  location (postal code):	DE-94***
+  number of residents		>2
+  space				>150 m^3
+
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  SMART METER MEASUREMENTS
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+    from:		1583923942757
+    to:		1590030334975
+
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  LABEL MEASUREMENTS
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+    label_001:
+        type:		fully automatic coffee machine
+        location:		kitchen
+        description:	DeLongi PrimaDonna
+        from:		1581934045231
+        to:		1585658964892
+        power_min:	0.0
+        power_max:	1600.4
+
+    label_002:
+        type:		baking machine
+        location:		kitchen
+        description:	manufacturer: Resch und Frisch
+        from:		1581934045233
+        to:		1585651517936
+        power_min:	0.0
+        power_max:	2385.8
+
+    label_003:
+        type:		Thermomix
+        location:		kitchen
+        description:	
+        from:		1581934045243
+        to:		1585651519250
+        power_min:	0.0
+        power_max:	2422.4
+
+    label_004:
+        type:		television
+        location:		living room
+        description:	manufacturer: Pioneer
+        from:		1581934045249
+        to:		1584644760961
+        power_min:	0.0
+        power_max:	782.9
+
+    label_005:
+        type:		floor lamp
+        location:		living room
+        description:	
+        from:		1581934045257
+        to:		1585651616077
+        power_min:	0.0
+        power_max:	0.0
+
+    label_006:
+        type:		dryer
+        location:		housekeeping room
+        description:	Miele SteamFinisch& Eco XL Tronic & WiFiConn@ct
+        from:		1581934045263
+        to:		1585652216963
+        power_min:	0.0
+        power_max:	2423.9
+
+    label_007:
+        type:		washing machine
+        location:		housekeeping room
+        description:	PowerWash 2.0 & TwinDos XL Tronic
+        from:		1581934045268
+        to:		1585652220499
+        power_min:	0.0
+        power_max:	879.9
+
+    label_008:
+        type:		television
+        location:		children's room
+        description:	manufacturer: Sony
+        from:		1581934045276
+        to:		1585651715541
+        power_min:	0.0
+        power_max:	42.9
+
+    label_009:
+        type:		printer
+        location:		office
+        description:	manufacturer: Kyocera
+        from:		1581934045285
+        to:		1585651775219
+        power_min:	0.0
+        power_max:	1632.3
+
+    label_010:
+        type:		printer
+        location:		office
+        description:	manufacturer: Kyocera
+        from:		1581934045296
+        to:		1585651774151
+        power_min:	0.0
+        power_max:	1593.7
+
+--------------------------------------------------------------------------------
+hh-20
+--------------------------------------------------------------------------------
+  location (postal code):	DE-94***
+  number of residents		<=2
+  space				<=150 m^3
+
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  SMART METER MEASUREMENTS
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+    from:		1576054237507
+    to:		1590030334054
+
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  LABEL MEASUREMENTS
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+    label_001:
+        type:		coffee machine
+        location:		kitchen
+        description:	Philips HG7546
+        from:		1575899100012
+        to:		1576145340197
+        power_min:	0.0
+        power_max:	1114.7
+
+    label_002:
+        type:		electric kettle
+        location:		kitchen
+        description:	Philips HD4680
+        from:		1575899100099
+        to:		1577958448578
+        power_min:	0.0
+        power_max:	2262.1
+
+    label_003:
+        type:		toaster
+        location:		kitchen
+        description:	Roventa 5334.11
+        from:		1575899100143
+        to:		1577958463163
+        power_min:	0.0
+        power_max:	781.1
+
+    label_004:
+        type:		television
+        location:		dining room
+        description:	KENDO LED 32FHD175
+        from:		1575899164393
+        to:		1577958480214
+        power_min:	0.0
+        power_max:	3.7
+
+    label_005:
+        type:		advent crib
+        location:		living room
+        description:	
+        from:		1575899100037
+        to:		1577958531611
+        power_min:	0.0
+        power_max:	5.4
+
+    label_006:
+        type:		television
+        location:		living room
+        description:	manufacturer: Philips
+        from:		1575899100059
+        to:		1577958552672
+        power_min:	0.0
+        power_max:	182.1
+
+    label_007:
+        type:		floor lamp
+        location:		living room
+        description:	
+        from:		1575899100125
+        to:		1577958615215
+        power_min:	0.4
+        power_max:	61.2
+
+    label_008:
+        type:		floor lamp
+        location:		living room
+        description:	
+        from:		1575899100008
+        to:		1577958639571
+        power_min:	0.0
+        power_max:	36.4
+
+    label_009:
+        type:		fridge
+        location:		basement
+        description:	manufacturer: Amica
+        from:		1575899100097
+        to:		1577958415553
+        power_min:	0.0
+        power_max:	1212.1
+
+    label_010:
+        type:		washing machine
+        location:		basement
+        description:	Siemens Vario Perfect
+        from:		1575899100088
+        to:		1577958528720
+        power_min:	0.0
+        power_max:	2715.8

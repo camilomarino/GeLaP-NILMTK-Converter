@@ -1,5 +1,5 @@
-instance: 15
-original_name: house_15   # original name from GeLaP dataset
+instance: 18
+original_name: house_18   # original name from GeLaP dataset
 elec_meters:
   1: &emonitor
     submeter_of: 0 
@@ -18,15 +18,15 @@ elec_meters:
     device_model: Gelap_whole_house
 
 appliances:
-- original_name: language assistance system
-  room: kitchen
-  type: unknown
-  instance: 1
-  meters: [1] 
-
 - original_name: coffee machine
   room: kitchen
   type: coffee maker
+  instance: 1
+  meters: [1]
+
+- original_name: electric kettle
+  room: kitchen
+  type: kettle
   instance: 1
   meters: [2]
 
@@ -36,21 +36,22 @@ appliances:
   instance: 1
   meters: [3]
 
-- original_name: floor lamp
-  room: kitchen
-  type: lamp
-  instance: 1
-  meters: [4]
-
 - original_name: television
   room: living room
   type: television
   instance: 1
+  meters: [4]
+
+- original_name: floor lamp
+  room: living room
+  type: lamp
+  instance: 1
+  multiple: true
   meters: [5]
 
-- original_name: circulation pump
-  room: boiler room
-  type: water pump
+- original_name: dryer
+  room: basement
+  type: washer dryer
   instance: 1
   meters: [6]
 
@@ -60,20 +61,21 @@ appliances:
   instance: 1
   meters: [7]
 
-- original_name: dryer
-  room: basement
-  type: washer dryer
-  instance: 1
+- original_name: bedside lamp
+  room: bedroom
+  type: lamp
+  instance: 2
+  multiple: true
   meters: [8]
 
-- original_name: battery vacuum cleaner
-  room: housekeeping room
-  type: vacuum cleaner
+- original_name: hairdryer
+  room: bathroom
+  type: hair dryer
   instance: 1
   meters: [9]
 
-- original_name: flat iron
-  room: housekeeping room
-  type: hair straighteners
+- original_name: printer
+  room: office
+  type: printer
   instance: 1
   meters: [10]
