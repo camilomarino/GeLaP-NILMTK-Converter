@@ -52,7 +52,7 @@ appliances:
 
 - original_name: television-receiver
   room: kitchen
-  type: unknown
+  type: set top box
   instance: 1
   meters: [6]
 

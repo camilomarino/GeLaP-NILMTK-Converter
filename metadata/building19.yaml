@@ -26,7 +26,7 @@ appliances:
 
 - original_name: baking machine
   room: kitchen
-  type: unknown
+  type: electric oven
   instance: 1
   meters: [2]
 

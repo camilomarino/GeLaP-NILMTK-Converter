@@ -20,7 +20,7 @@ elec_meters:
 appliances:
 - original_name: bread slicer
   room: kitchen
-  type: unknown
+  type: small resistive cooking appliance
   instance: 1
   meters: [1] 
 

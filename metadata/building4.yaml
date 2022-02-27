@@ -62,7 +62,7 @@ appliances:
 
 - original_name: television-receiver
   room: living room
-  type: unknown
+  type: set top box
   instance: 1
   meters: [8]
 

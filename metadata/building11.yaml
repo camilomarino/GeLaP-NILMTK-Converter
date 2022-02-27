@@ -27,9 +27,8 @@ appliances:
 
 - original_name: television-receiver
   room: living room
-  type: unknown
+  type: set top box
   instance: 1
-  multiple: true
   meters: [2]
 
 - original_name: floor lamp
@@ -52,9 +51,8 @@ appliances:
 
 - original_name: juicer
   room: kitchen
-  type: unknown
-  instance: 2
-  multiple: true
+  type: small resistive cooking appliance 
+  instance: 1
   meters: [6]
 
 - original_name: coffee machine
