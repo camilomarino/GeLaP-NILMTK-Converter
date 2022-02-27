@@ -87,6 +87,9 @@ def _prepare_df(
     df.columns.set_names(LEVEL_NAMES, inplace=True)
     df.dropna(inplace=True)
 
+    if drop_duplicates:
+        # https://stackoverflow.com/a/34297689/12462703
+        df = df[~df.index.duplicated(keep="first")]
     if sort_index:
         df.sort_index(inplace=True)
     return df
