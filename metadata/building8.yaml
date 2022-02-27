@@ -53,8 +53,7 @@ appliances:
 - original_name: television-receiver
   room: kitchen
   type: unknown
-  instance: 2
-  multiple: true
+  instance: 1
   meters: [6]
 
 - original_name: battery vacuum cleaner
