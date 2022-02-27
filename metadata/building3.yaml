@@ -31,7 +31,7 @@ appliances:
   meters: [2]
 
 - original_name: television
-  room: living
+  room: living room
   type: television
   instance: 1
   meters: [3]
@@ -75,7 +75,7 @@ appliances:
   meters: [9]
 
 - original_name: stereo system
-  room: living
+  room: living room
   type: audio system
   instance: 1
   meters: [10]

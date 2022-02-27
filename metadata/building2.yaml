@@ -19,13 +19,13 @@ elec_meters:
 
 appliances:
 - original_name: charger
-  room: living
+  room: living room
   type: charger
   instance: 1
   meters: [1] 
 
 - original_name: television
-  room: living
+  room: living room
   type: television
   instance: 1
   meters: [2]

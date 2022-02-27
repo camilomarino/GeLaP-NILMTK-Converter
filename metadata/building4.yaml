@@ -32,9 +32,8 @@ appliances:
 
 - original_name: extractor fan
   room: kitchen
-  type: unknown
+  type: fan
   instance: 1
-  multiple: true
   meters: [3]
 
 - original_name: lamp
@@ -56,16 +55,15 @@ appliances:
   meters: [6]
 
 - original_name: television
-  room: living
+  room: living room
   type: television
   instance: 1
   meters: [7]
 
 - original_name: television-receiver
-  room: living
+  room: living room
   type: unknown
-  instance: 2
-  multiple: true
+  instance: 1
   meters: [8]
 
 - original_name: washing machine

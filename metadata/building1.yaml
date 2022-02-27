@@ -43,14 +43,14 @@ appliances:
   meters: [4]
 
 - original_name: television
-  room: living
+  room: living room
   type: television
   instance: 1
   multiple: true   # likely to be more than 1 television
   meters: [5]
 
 - original_name: television
-  room: living
+  room: living room
   type: television
   instance: 2
   multiple: true   # likely to be more than 1 television
@@ -75,7 +75,7 @@ appliances:
   meters: [9]
 
 - original_name: radio
-  room: living
+  room: living room
   type: radio
   instance: 1
   meters: [10]
